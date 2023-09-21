@@ -15,7 +15,7 @@ const PieChart = () => {
   const fetchData=async ()=>{
     setLoading(true);
     try {
-      const {data}=await axios.get('http://localhost:4000/details');
+      const {data}=await axios.get('https://newsvisualizer06.onrender.com/details');
        let comregions=["Asia","America","World","Europe","Oceania","Africa"];
        let regions = [
         {

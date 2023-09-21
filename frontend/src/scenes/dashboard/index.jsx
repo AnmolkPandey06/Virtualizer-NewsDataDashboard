@@ -23,7 +23,7 @@ const Dashboard = () => {
   const fetchData=async ()=>{
     setLoading(true);
     try {
-      const {data}=await axios.get('http://localhost:4000/details');
+      const {data}=await axios.get('https://newsvisualizer06.onrender.com/details');
       const container=[];
        var maxrel=0;
        var intensity=0;

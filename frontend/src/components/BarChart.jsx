@@ -21,7 +21,7 @@ const BarChart = ({ isDashboard = false }) => {
   const fetchData=async ()=>{
     setLoading(true);
     try {
-      const {data}=await axios.get('http://localhost:4000/details');
+      const {data}=await axios.get('https://newsvisualizer06.onrender.com/details');
        const Data = [
         {
           Interval: "2017-2020",

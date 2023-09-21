@@ -15,7 +15,7 @@ const  NewsReports = ({dashboarddata}) => {
   const fetchData=async ()=>{
       setLoading(true);
       try {
-        const {data}=await axios.get('http://localhost:4000/details');
+        const {data}=await axios.get('https://newsvisualizer06.onrender.com/details');
         // console.log(data);
 
     //   const {data}=await fetch('http://localhost:6000/details',{ 
